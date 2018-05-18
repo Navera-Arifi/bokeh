@@ -717,7 +717,7 @@ class HasProps(with_metaclass(MetaHasProps, object)):
         '''
         return self.__class__(**self._property_values)
 
-    def _repr_pretty_(self, p, cycle):
+    def __repr_pretty_(self, p, cycle):
         '''
 
         '''

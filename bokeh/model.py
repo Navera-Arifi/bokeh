@@ -655,7 +655,7 @@ class Model(with_metaclass(MetaModel, HasProps, PropertyCallbackManager, EventCa
 
         return html
 
-    def _repr_pretty_(self, p, cycle):
+    def __repr_pretty_(self, p, cycle):
         '''
 
         '''
